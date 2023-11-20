@@ -1,0 +1,26 @@
+/* Write your CSS code here */
+.coin-type {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.coin-img {
+  height: 35px;
+  width: 35px;
+}
+.each-row {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0px;
+  justify-content: space-between;
+}
+.values {
+  display: flex;
+
+  align-items: center;
+}
+.euro-value {
+  text-align: right;
+  width: 63px;
+  margin-left: 9px;
+}

@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.bg-con {
+  min-height: 100vh;
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.main-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.main-img {
+  width: 98%;
+}
+.heading {
+  font-weight: bold;
+  color: #00e7ff;
+  font-size: 24px;
+}
+.nav-part2 {
+  display: flex;
+  gap: 36px;
+}
+.coins-section {
+  width: 100%;
+  border: 1.5px solid #00e7ff;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+}
+.list-items {
+  padding: 8px 17px 8px 18px;
+}
+.currency-top-section {
+  background-color: #092e33;
+  display: flex;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  justify-content: space-between;
+  padding: 9px 33px 8px 48px;
+}
